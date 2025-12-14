@@ -1,0 +1,38 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "RESTful Blog API with Authors and Posts (One-to-Many Relationship)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saisuryavinay/blog-api.git"
+  },
+  "keywords": [
+    "blog",
+    "rest-api",
+    "express",
+    "sequelize",
+    "postgresql"
+  ],
+  "author": "D. Sai Surya Vinay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saisuryavinay/blog-api/issues"
+  },
+  "homepage": "https://github.com/saisuryavinay/blog-api#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
