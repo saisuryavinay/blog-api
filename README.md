@@ -168,3 +168,6 @@ DELETE /posts/{id}
 🔹 Nested Resource Endpoint
 Get All Posts of an Author
 GET /authors/{id}/posts
+ERD Diagram
+
+<img width="1024" height="1024" alt="Gemini_Generated_Image_r9m5b1r9m5b1r9m5" src="https://github.com/user-attachments/assets/7a81c9db-4575-4629-b066-624ea8ca0cb9" />
